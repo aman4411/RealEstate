@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Real Estate</string>
+    <string name="title_activity_sell__property">Sell Property</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_buy">Buy</string>
+    <string name="menu_sell">Sell</string>
+    <string name="menu_rent">Rent</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_buy_property">Buy Property</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_rent_property">Rent Property</string>
+    <string name="title_activity_location">Property Location</string>
+</resources>
