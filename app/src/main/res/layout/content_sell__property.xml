@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Sell_Property"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sell Your Property  "
+                android:textColor="@color/blue"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Name"
+                    android:padding="6dp"
+                    android:inputType="text"/>
+
+                <EditText
+                    android:id="@+id/number"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Phone Number"
+                    android:padding="6dp"
+                    android:inputType="number"/>
+
+                <EditText
+                    android:id="@+id/property_location"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Property Location"
+                    android:padding="6dp" />
+
+
+                <EditText
+                    android:id="@+id/area"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Area (in sq ft)"
+                    android:padding="6dp"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/textview_shape"
+                    android:hint="Selling Price"
+                    android:padding="6dp"
+                    android:inputType="numberDecimal"/>
+
+            </LinearLayout>
+
+        <ImageView
+            android:id="@+id/property_image"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shape"
+            android:gravity="center"
+            android:text="Capture Image"
+            android:textColor="@color/white"
+            />
+
+        <Button
+                android:id="@+id/submitButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape"
+                android:gravity="center"
+                android:text="Submit"
+                android:textColor="@color/white"
+                />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>
